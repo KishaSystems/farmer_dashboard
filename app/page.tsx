@@ -148,6 +148,12 @@ export default function Dashboard() {
           <div>
             <h1>Dashboard</h1>
             <p>Welcome back, Kishalan</p>
+            <div className="header-meta">
+              <span className="meta-item">📍 Kandy, Sri Lanka</span>
+              <span className="meta-item">
+                🕒 {new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+              </span>
+            </div>
           </div>
 
           <div className="header-actions">
